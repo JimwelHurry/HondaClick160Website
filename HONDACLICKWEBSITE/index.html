@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Honda Click 160 - Rizal AutoZone</title>
+        <link rel="icon" href="https://w7.pngwing.com/pngs/456/1008/png-transparent-honda-motor-company-honda-logo-honda-angle-text-logo.png" type="image/png">
+        <!-- bootstrap.min.css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/37b793c4b3.js"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="bg-color-header">
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark mb-2">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://www.hondaph.com/images/honda-full.png" alt="Honda Logo" style="height: 50px;"/> 
+                        
+                    </a>
+                    
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <i class="fas fa-home"></i> Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-info-circle"></i> About Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-envelope"></i> Contact Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-image"></i> Multimedia
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-briefcase"></i> HSDC Career
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Intro Section -->
+            <section class="container mx-auto">
+                <div
+                    class="row d-flex g-4 justify-content-between align-items-center p-5">
+                    <div class="col-lg-6">  
+                        
+                        <h1 class="text-white fw-bolder">Honda Click160</h1>
+                        <p class="text-white">The Honda Click is equipped with a computer-controlled digital 
+                            transistorized ignition system with electronic advance, providing precise 
+                            ignition timing and smoother performance. Known for its efficient and powerful engine, 
+                            the Honda Click is perfect for both city commutes and outdoor adventures. With a sleek, 
+                            compact design, it's well-suited for various settings and tasks, offering a reliable option for 
+                            those who value smart engineering in their daily rides.</p>
+                        
+                            <button style="display: none;">
+                                Purchase
+                            </button>
+                            
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">
+                                            Confirmation</h5>
+                                        <button type="button" class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img id="headerBike" class="img-fluid zoom-image" src="images/header-bike.png" alt="">
+                    </div>
+                    
+                    <style>
+                        .zoom-image {
+                            transition: transform 0.5s ease; /* Smooth transition for the zoom effect */
+                        }
+                    
+                        .zoom-image:hover {
+                            transform: scale(1.1); /* Zoom in the image on hover */
+                        }
+                    </style>
+                    
+                    <script>
+                        // Array of image paths
+                        const images = [
+                            'images/header-bike.png',
+                            'images/header-bike2.png',
+                            'images/header-bike3.png'
+                        ];
+                        let currentIndex = 0;
+                    
+                        // Function to change the image
+                        function changeImage() {
+                            const imageElement = document.getElementById("headerBike");
+                    
+                            currentIndex = (currentIndex + 1) % images.length;  // Cycle through images
+                            imageElement.src = images[currentIndex];
+                        }
+                    
+                        // Set interval to change image every 2 seconds (2000 ms)
+                        setInterval(changeImage, 2000);
+                    </script>
+                    
+                    
+            </section>
+        </header>
+
+        <main>
+            <!-- Fetured Bikes Section  -->
+            <section class="container py-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Description <span
+                            class="custom-primary-color">2024</span></h2>
+                    <!-- <small class="custom-primary-color">Best bike collection</small> -->
+                    <hr class="custom-primary-color mx-auto mt-0 fw-bold">
+                </div>
+
+                
+
+                <div class="w-75 mx-auto">
+                    <div id="carouselExampleCaptions" class="carousel slide"
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="0" class="active" aria-current="true"
+                                aria-label="Slide 1"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <style>
+                            .carousel-item {
+                                overflow: hidden; /* Hide the overflow to keep the zoom effect contained */
+                            }
+                        
+                            .carousel-item img {
+                                transition: transform 0.5s ease; /* Smooth transition for zoom effect */
+                            }
+                        
+                            .carousel-item img:hover {
+                                transform: scale(1.1); /* Scale up the image on hover */
+                            }
+                        </style>
+                        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/bike-1.jpeg" class="d-block w-100" alt="Bike 1" style="height: 50vh; object-fit: contain;">
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- Description section below the image -->
+                        <div class="description text-center mt-5" style="padding: 20px; background-color: #f4f4f4; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                            <h5 style="font-size: 2.5rem; font-weight: bold; color: #2c3e50;">The New CLICK160</h5>
+                            <p style="font-size: 1.1rem; line-height: 1.6; color: #34495e; padding: 0 20px;">
+                                <small>
+                                    <strong>Honda Click 160</strong> - Rizal Autozone presents the ideal ride for discerning riders: The New CLICK160.<br><br>
+                                    
+                                    <strong style="font-size: 1.4rem;">Eye-Catching Good Looks</strong><br>
+                                    The New CLICK160 boasts a modern design with an angular front cowl, front fender, and side fairings. Its newly designed all-LED headlights and taillights not only enhance its striking appearance but also improve nighttime visibility, ensuring a safe ride wherever you go. Available in three stunning color variants—Matte Pearl Crater White, Matte Solar Red Metallic, and Matte Gunpowder Black Metallic—this bike perfectly combines style and sophistication, making you stand out on every journey.<br><br>
+                                    
+                                    <strong style="font-size: 1.4rem;">Performance That Impresses</strong><br>
+                                    Equipped with a 4-Stroke, 4-Valve, SOHC, Liquid-Cooled eSP+ engine, the New CLICK160 delivers an impressive 11.3 kW of max power at 8,500 rpm and 13.8 Nm of max torque at 7,000 rpm. This power is perfect for navigating through the city or embarking on scenic rides. With a 5.5-liter fuel tank and an impressive fuel consumption rate of 46.7 km/L (based on the World Motorcycle Test Cycle), you can enjoy extended rides without frequent stops at the pump.<br><br>
+                                    
+                                    <strong style="font-size: 1.4rem;">Control and Safety Features</strong><br>
+                                    Safety is paramount, and the New CLICK160 is equipped with Honda’s Combi Brake System (CBS), wider tires, and newly designed cast wheels for enhanced control. These features ensure you reach your destination safely, no matter the conditions. Additionally, the built-in USB charger keeps your devices powered, so you’re always ready to capture those unforgettable moments on the road. With a larger luggage box, you can easily carry essentials for spontaneous adventures, whether it's a day at the beach or a weekend getaway.<br><br>
+                                    
+                                    <strong style="font-size: 1.4rem;">Secure and Convenient</strong><br>
+                                    Beyond its stylish design and impressive performance, the New CLICK160 comes with a range of features that make daily adventures more convenient and secure. The Smart Key System with Anti-Theft Alarm and Answer Back System provides peace of mind while the Idling Stop System helps conserve fuel, allowing you to save for your next adventure.<br><br>
+                                    
+                                    The New CLICK160 is more than just a motorcycle; it's a perfect companion for those who seek style, performance, and convenience on every ride.
+                                </small>
+                            </p>
+                        </div>
+                        
+                        
+                        <div class="color-variants text-center mt-3" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                            <div class="d-flex justify-content-center">
+                                <div class="mx-2" style="text-align: center;"> <!-- Margin on the sides -->
+                                    <img src="images/red.png" alt="Matte Solar Red Metallic" style="width: 300px; height: 300px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease;">
+                                    <h6 style="font-weight: bold; font-size: 1.2rem; margin-top: 10px; color: #333;">Matte Solar Red Metallic</h6>
+                                    <p style="color: #666; line-height: 1.5; margin: 10px 0; padding: 0 10px;">
+                                        Experience the bold allure of Matte Solar Red Metallic—a deep, rich red with warm undertones and a subtle metallic shimmer. The matte finish softens its intensity, creating a refined look, while hints of metallic enhance its glow under light. This color radiates vibrancy with sophistication, perfect for those seeking a striking yet elegant aesthetic.
+                                    </p>
+                                </div>
+                                <div class="mx-2" style="text-align: center;">
+                                    <img src="images/white.png" alt="Matte Cosmo Silver Metallic" style="width: 300px; height: 300px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease;">
+                                    <h6 style="font-weight: bold; font-size: 1.2rem; margin-top: 10px; color: #333;">Matte Cosmo Silver Metallic</h6>
+                                    <p style="color: #666; line-height: 1.5; margin: 10px 0; padding: 0 10px;">
+                                        Discover the cool elegance of Matte Cosmo Silver Metallic—a refined matte silver featuring a brushed texture that minimizes glare. The metallic undertones produce a space-gray effect that subtly shifts with the light, creating a sleek and modern appearance that embodies understated elegance. Perfect for versatile and futuristic designs.
+                                    </p>
+                                </div>
+                                <div class="mx-2" style="text-align: center;">
+                                    <img src="images/black.png" alt="Matte Gunpowder Black Metallic" style="width: 300px; height: 300px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease;">
+                                    <h6 style="font-weight: bold; font-size: 1.2rem; margin-top: 10px; color: #333;">Matte Gunpowder Black Metallic</h6>
+                                    <p style="color: #666; line-height: 1.5; margin: 10px 0; padding: 0 10px;">
+                                        Embrace the timeless sophistication of Matte Gunpowder Black Metallic. This deep, matte black features a subtle sheen that enhances its elegant depth. With a classic yet contemporary vibe, this color captivates the eye and provides a bold look for those who appreciate understated style.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <style>
+                            .color-variants img:hover {
+                                transform: scale(1.1); /* Slightly enlarge the image on hover */
+                            }
+                        </style>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+            </section>
+
+            <!-- Global Models Section -->
+            <section class="container py-5 my-5">
+                <h2 class="text-center fw-bold pb-4 mb-4">FEATURES <span
+                        class="custom-primary-color"></span></h2>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div
+                            class="card h-100 photo-frame border-0 rounded-3 px-4 shadow-lg">
+                            <a class="text-decoration-none text-primary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Click To See Details"
+                                href="https://www.hondaph.com/" target="_blank">
+                                <div class="photo">
+                                    <img src="https://cms.hondaph.com/images/products/62d766438fe57.png" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">USB CHARGER</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card h-100 photo-frame border-0 rounded-3 px-4 shadow-lg">
+                            <a class="text-decoration-none text-primary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Click To See Details"
+                                href="https://www.hondaph.com/" target="_blank">
+                                <div class="photo">
+                                    <img src="https://cms.hondaph.com/images/products/62d766439a5b6.png" class="card-img-top"
+                                        alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">Smart Key System With Anti-Theft 
+                                        Alarm and Answer Back System
+                                    </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card h-100 photo-frame border-0 rounded-3 px-4 shadow-lg">
+                            <a class="text-decoration-none text-primary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Click To See Details"
+                                href="https://www.hondaph.com/" target="_blank">
+                                <div class="photo">
+                                    <img src="https://cms.hondaph.com/images/products/66e156cbaf4d4.png" class="card-img-top"
+                                        alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">All LED-Lightning System
+                                    </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card h-100 photo-frame border-0 rounded-3 px-4 shadow-lg">
+                            <a class="text-decoration-none text-primary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Click To See Details"
+                                href="https://www.hondaph.com/" target="_blank">
+                                <div class="photo">
+                                    <img src="	https://cms.hondaph.com/images/products/62d76643b0fcf.png" class="card-img-top"
+                                        alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">Large Luggage Box</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card h-100 photo-frame border-0 rounded-3 px-4 shadow-lg">
+                            <a class="text-decoration-none text-primary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Click To See Details"
+                                href="https://www.hondaph.com/" target="_blank">
+                                <div class="photo">
+                                    <img src="https://cms.hondaph.com/images/products/66e156cbc969a.png" class="card-img-top"
+                                        alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">Combined Braking System (CBS)</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card h-100 photo-frame border-0 rounded-3 px-4 shadow-lg">
+                            <a class="text-decoration-none text-primary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Click To See Details"
+                                href="https://www.hondaph.com/" target="_blank">
+                                <div class="photo">
+                                    <img src="https://cms.hondaph.com/images/products/62d76643c46e0.png" class="card-img-top"
+                                        alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center fw-bold">157cc Liquid-Cooled Engine, 4-Valve, eSP+ </h5>
+                                </div>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- News Section -->
+            <section class="container py-5 my-4">
+                <style>
+                    .zoom {
+                        transition: transform 0.3s ease; /* Smooth transition */
+                    }
+            
+                    .zoom:hover {
+                        transform: scale(1.1); /* Scale image to 110% on hover */
+                    }
+                </style>
+            
+                <h2 class="text-center fw-bold pb-4 mb-4"><span class="custom-primary-color"></span></h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 rounded-3 px-4 shadow-lg">
+                            <img src="https://cms.hondaph.com/images/products/66e156cbe24a7.png" class="card-img-top zoom" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Sporty Muffler Design</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 rounded-3 px-4 shadow-lg">
+                            <img src="https://cms.hondaph.com/images/products/6582642b1740b.png" class="card-img-top zoom" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Park Brake Lock</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 rounded-3 px-4 shadow-lg">
+                            <img src="https://cms.hondaph.com/images/products/66e156cb9579b.png" class="card-img-top zoom" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Colored Cast Wheel and Wide Tires</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 rounded-3 px-4 shadow-lg">
+                            <img src="https://cms.hondaph.com/images/products/62d7664382add.png" class="card-img-top zoom" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Full Digital Meter Panel</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!-- Clients Comments Section -->
+            <section class="container py-5 my-5">
+                <h2 class="text-center fw-bold pb-4 mb-4">SPECIFICATION</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th>Engine Type</th>
+                                <td>4-Stroke, 4-Valve, SOHC, Liquid-Cooled, eSP+</td>
+                            </tr>
+                            <tr>
+                                <th>Displacement</th>
+                                <td>157 cc</td>
+                            </tr>
+                            <tr>
+                                <th>Bore & Stroke</th>
+                                <td>60.0 x 55.5 mm</td>
+                            </tr>
+                            <tr>
+                                <th>Compression Ratio</th>
+                                <td>12.0 : 1</td>
+                            </tr>
+                            <tr>
+                                <th>Maximum Power</th>
+                                <td>11.3 kW @ 8,500 rpm</td>
+                            </tr>
+                            <tr>
+                                <th>Maximum Torque</th>
+                                <td>13.8 Nm @ 7,000 rpm</td>
+                            </tr>
+                            <tr>
+                                <th>Starting System</th>
+                                <td>Electric (ACG Starter)</td>
+                            </tr>
+                            <tr>
+                                <th>Engine Oil Capacity</th>
+                                <td>0.9 L</td>
+                            </tr>
+                            <tr>
+                                <th>Fuel System</th>
+                                <td>PGM-FI</td>
+                            </tr>
+                            <tr>
+                                <th>Fuel Consumption (WMTC Test Method)</th>
+                                <td>46.7 Km/L</td>
+                            </tr>
+                            <tr>
+                                <th>Transmission Type</th>
+                                <td>Automatic (V-Matic)</td>
+                            </tr>
+                            <tr>
+                                <th>Suspension Type (Front)</th>
+                                <td>Telescopic</td>
+                            </tr>
+                            <tr>
+                                <th>Suspension Type (Rear)</th>
+                                <td>Unit Swing</td>
+                            </tr>
+                            <tr>
+                                <th>Brake Type (Front)</th>
+                                <td>Hydraulic Disc</td>
+                            </tr>
+                            <tr>
+                                <th>Brake Type (Rear)</th>
+                                <td>Mechanical Leading Trailing</td>
+                            </tr>
+                            <tr>
+                                <th>Tire Size & Type (Front)</th>
+                                <td>100/80-14 M/C 48P (Tubeless)</td>
+                            </tr>
+                            <tr>
+                                <th>Tire Size & Type (Rear)</th>
+                                <td>120/70-14 M/C 61P (Tubeless)</td>
+                            </tr>
+                            <tr>
+                                <th>Wheel Type</th>
+                                <td>Cast Wheel</td>
+                            </tr>
+                            <tr>
+                                <th>Overall Dimensions (L x W x H)</th>
+                                <td>1,929 x 678 x 1,088 mm</td>
+                            </tr>
+                            <tr>
+                                <th>Curb Weight</th>
+                                <td>116 Kg</td>
+                            </tr>
+                            <tr>
+                                <th>Seat Height</th>
+                                <td>778 mm</td>
+                            </tr>
+                            <tr>
+                                <th>Wheelbase</th>
+                                <td>1,278 mm</td>
+                            </tr>
+                            <tr>
+                                <th>Ground Clearance</th>
+                                <td>138 mm</td>
+                            </tr>
+                            <tr>
+                                <th>Fuel Tank Capacity</th>
+                                <td>5.5 L</td>
+                            </tr>
+                            <tr>
+                                <th>Ignition Type</th>
+                                <td>Full Transistorized</td>
+                            </tr>
+                            <tr>
+                                <th>Battery Type</th>
+                                <td>12V - 5Ah MF - WET</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            
+            
+           
+            
+
+        <!-- Footer  -->
+        <footer class="bg-dark text-white">
+            <div class="container h-100 mx-auto">
+                <div class="row h-100 py-4">
+                    <div
+                        class="col-sm-12 col-md-8 col-lg-8 d-flex justify-content-center justify-content-lg-start my-2">
+                        <div>
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li>
+                                    <a class="navbar-brand text-white btn shadow-none" href="#">
+                                        <img src="https://www.hondaph.com/images/honda-white-footer.png" alt="Honda Logo" style="height: 50px;"/>
+                                    </a>
+                                </li>
+                                
+                                <li><a class="text-decoration-none text-white btn shadow-none"
+                                        href="">Privacy Policy</a></li>
+                                <li><a class="text-decoration-none text-white btn shadow-none"
+                                        href="">License</a></li>
+                            </ul>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                <li><a class="text-decoration-none text-white btn shadow-none"
+                                        href="">Features</a></li>
+                                <li><a class="text-decoration-none text-white btn shadow-none"
+                                        href="">Pricing</a></li>
+                               
+                                <li><a class="text-decoration-none text-white btn shadow-none"
+                                        href="">Help</a></li>
+                                <li><a class="text-decoration-none text-white btn shadow-none"
+                                        href="">Contact us</a></li>
+                                <li><a class="text-decoration-none text-white btn shadow-none"
+                                        href="">About</a></li>
+
+                            </ul>
+
+                            <div class="ps-2">
+                                <p>© 2024 bike. All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-sm-start justify-content-lg-end my-2">
+                        <div class="">
+                            <h5 class="mb-3">Get the App</h5>
+                            <a class="py-3" href=""><img src="images/app-store.png"
+                                    alt=""></a>
+                            <a class="py-3" href=""><img src="images/play-store.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+        <!-- bootstrap.bundle.min.js -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
